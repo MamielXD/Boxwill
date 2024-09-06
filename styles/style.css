@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos para el section temp-banner */
+
+/* Centra el contenido horizontalmente */
+.section.temp-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh; /* Ajusta el height para que ocupe toda la pantalla */
+  }
+  
+  /* Estilos para el h1 */
+  .section.temp-banner h1 {
+    font-size: 36px; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+    margin-bottom: 10px; /* Espacio entre el h1 y el p */
+  }
+  
+  /* Estilos para el p */
+  .section.temp-banner p {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #666; /* Color de texto */
+  }
